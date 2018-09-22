@@ -1,0 +1,87 @@
+﻿body {
+    margin:0;
+}
+li {
+    float: right;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+.nav_hover:hover {
+    background-color: #111;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.nav_bar {
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI';
+    width:100%;
+    opacity: 0.80;
+    position:fixed;
+    z-index: 50;
+}
+.meet_me {
+    position:relative;
+    height: 500px;
+    background-color: black;
+    z-index:-50;
+
+}
+.meet_me_img {
+    position: relative;
+    text-align: center;
+    opacity:0.9;
+}
+.meet_me_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 80px;
+   
+}
+.head_text {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 40px;
+}
+.about{
+    margin:50px;
+    
+}
+.sub_text {
+   font-size:20px;
+}
+
+.blog_image {
+    border: 2px none;
+    border-radius: 20px;
+    width: 380px;
+    height: 320px;
+}
+.blog_content {
+    display: inline-block;
+    padding: 10px;
+    text-align: justify;
+    width:380px;
+}
+@media screen and (max-width:320px){
+
+}
